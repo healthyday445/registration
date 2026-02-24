@@ -27,7 +27,7 @@ const SharedHeader = () => {
 
                 <nav className="hidden md:flex items-center space-x-12 text-[15px] font-semibold text-[#202020] tracking-wide uppercase">
                     <a href="https://healthyday.co.in/" className="hover:text-[#ffb129] transition-colors">HOME</a>
-                    <Link to="/#pricing" className="hover:text-[#ffb129] transition-colors">PRICING</Link>
+                    <a href="https://plans.healthyday.co.in/" className="hover:text-[#ffb129] transition-colors">PRICING</a>
                     <Link to="/FreeProgrammes" className="hover:text-[#ffb129] transition-colors">FREE PROGRAMMES</Link>
                     <a href="https://healthyday.co.in/contact-us/" className="hover:text-[#ffb129] transition-colors">CONTACT US</a>
                 </nav>
@@ -57,7 +57,7 @@ const SharedHeader = () => {
 
                         <div className="flex flex-col items-center space-y-6 text-[17px] font-semibold text-[#202020] uppercase tracking-wide">
                             <a href="https://healthyday.co.in/" onClick={() => setIsMenuOpen(false)} className="hover:text-[#ffb129] transition-colors">HOME</a>
-                            <Link to="/#pricing" onClick={() => setIsMenuOpen(false)} className="hover:text-[#ffb129] transition-colors">PRICING</Link>
+                            <a href="https://plans.healthyday.co.in/" onClick={() => setIsMenuOpen(false)} className="hover:text-[#ffb129] transition-colors">PRICING</a>
                             <Link to="/FreeProgrammes" onClick={() => setIsMenuOpen(false)} className="hover:text-[#ffb129] transition-colors">FREE PROGRAMMES</Link>
                             <a href="https://healthyday.co.in/contact-us/" onClick={() => setIsMenuOpen(false)} className="hover:text-[#ffb129] transition-colors">CONTACT US</a>
                             <Link to="/FreeProgrammes" onClick={() => setIsMenuOpen(false)}>
